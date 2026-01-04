@@ -1,31 +1,6 @@
-mp3_top_final (Top-Level Controller)
-├── Input Logic
-│   ├── button_cntr (Debouncer for Mode Select)
-│   └── button_cntr (Debouncer for Reset/Control)
-│
-├── Mode 1 Sub-System: Carol (Time-based FSM)
-│   └── play_buzz_top
-│       ├── silent_night (Main Controller)
-│       │   ├── clock_ms (Timer)
-│       │   ├── edge_detector_n
-│       │   ├── song_mem / song_mem2 / song_mem3 (Music ROMs)
-│       │   └── pwm_Nfreq_Nstep (LED PWM)
-│       └── pwm_Nfreq_Nstep (Buzzer PWM)
-│
-├── Mode 2 Sub-System: Trot (Frequency/Duration Driver)
-│   └── mommae_top
-│       ├── mommae_rom (Music Data)
-│       ├── sound_driver_articulated (Sound Engine)
-│       └── mommae_led_controller (Visual Engine)
-│
-├── Mode 3 Sub-System: Pop (Index-based Sequencer)
-│   └── blue_valentine_top
-│       ├── music_player (Sound Engine)
-│       └── led_pattern (Visual Engine)
-│
-└── Display Sub-System
-    └── Christmas_i2c_txtlcd_mode_ctrl (I2C Controller)
-        └── i2c_lcd_send_byte (Physical Layer Driver)
+
+
+<img width="711" height="635" alt="image" src="https://github.com/user-attachments/assets/e4c62ce6-11bc-4ea8-99f4-a32bd194a9e3" />
 
 
 
