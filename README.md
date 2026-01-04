@@ -2,6 +2,9 @@
 
 <img width="711" height="635" alt="image" src="https://github.com/user-attachments/assets/e4c62ce6-11bc-4ea8-99f4-a32bd194a9e3" />
 
+<img width="368" height="654" alt="image" src="https://github.com/user-attachments/assets/d8a0a738-4a36-4c52-863e-da9aa11418e5" />
+
+
 
 
 이 코드를 기반으로 **'채용 담당자가 기술력을 한눈에 파악할 수 있는 포트폴리오 구성안'**을 제안해 드립니다.
